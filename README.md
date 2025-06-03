@@ -1,6 +1,7 @@
 # 🚀 PHP + Rust: BigInt Fibonacci via FFI
 
 This project calculates large Fibonacci numbers in **Rust** using the `num-bigint` crate and calls the function from **PHP** using **FFI** — all inside Docker.
+A fun interactive PHP app using Rust (via FFI) to compute large Fibonacci numbers efficiently.
 
 ---
 
@@ -17,10 +18,12 @@ This project calculates large Fibonacci numbers in **Rust** using the `num-bigin
 ## 🔧 Build Instructions
 
 ### Step 1: Pulling the image from the repository
- Once in the repository, go to the tag **packages** and copy the docker pull command that will be shown to you.
+```bash
+docker pull freshystar/extended-fib-php
+```
 
  ### Step 2: Running the container
-  Paste the command you just copied under packages on your terminal.
+  Paste the command you just copied on your terminal.
   Do:
   ```sh
 $ docker images
