@@ -36,7 +36,7 @@ while (true) {
     // Display result
     echo "\n✅ Fibonacci($n) has " . strlen($result) . " digits.\n";
     echo "📈 Computed in {$elapsed} seconds.\n";
-    echo "🔍 Result (first 100 digits): " . substr($result, 0, 100) . "...\n\n";
+    echo "🔍 Result : {$result} \n";
 
     // Ask to continue
     $again = strtolower(prompt("🔁 Do you want to calculate another? (y/n): "));
